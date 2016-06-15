@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+			<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+		<script type="text/javascript" src="javascripts/app.js"></script>
+	<!-- Compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+          
+	</head>
+	<body>
+			<p class="cen">Rock, Paper or Scissors</p>
+
+			<!-- <input type="textfield" id="name_input" value="Enter Choice">
+			<input type="button" value="Enter" onClick="getChoice();">
+ -->
+			<!-- <input type="button" id="name_rock" value="rock" onClick="getChoice();">
+			<input type="button" id="name_paper" value="paper" onClick="getChoice();">
+			<input type="button" id="name_scissors" value="scissors" onClick="getChoice();"> -->
+	<hr />
+		<div class="cen">
+			<img class="img" src="images/paper.jpeg" value="paper" onClick="getChoice(this);">
+			<img class="img" src="images/scissors.jpeg" value="scissors" onClick="getChoice(this);">
+			<img class="img" src="images/the_rock.jpg" value="rock" onClick="getChoice(this);">
+		</div>
+			<hr />
+			<h3 id="answer" class="cen"></h3>
+			<p><h4>Score Board</h4></p>
+			<p id="you"></p>
+			<p id="computer"></p>
+			<p id="ties"></p>
+			<p id="percentage"></p>
+	</body>
+</html>
